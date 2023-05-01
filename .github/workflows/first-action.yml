@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World"
+      - name: RRR
+        run: |
+          echo Naatu Naatu
+          echo Oscar 
       - name: Print goodbye
         run: echo "Done-bye"
       
